@@ -82,4 +82,40 @@ console.log(frutas);
 
 
 
+//accessando elementos de um array
+var arr = ['este é o primeiro elemento', 'este é o segundo elemento'];
+console.log(arr[0]);
+console.log(arr[1]);
+console.log(arr[arr.length -1]);
+
+
+//
+var anos = [1950, 1960, 1970, 1980, 1990, 2000, 2010];
+console.log(anos[0]);
+
+
+//renderer['3d'].setTexture(model,'personagem.png');
+
+
+console.log(anos['2'] != anos['02']);
+
+
+//propiedades de objeto que sao palavras reservadas
+var promessa = { 'var':'texto', 'array':[1,2,3,4] };
+
+console.log(promessa['var']);
+
+
+
+//let cars = ['saab', 'volvo', 'bmw'];
+//console.log(cars[0]);
+//console.log(cars[1]);
+//console.log(cars[2]);
+
+
+//melhorando o codigo acima, usando um array
+let cars = ['saab', 'volvo', 'bmw'];
+for (let i = 0; i < cars.length; i++ ){
+    console.log(cars[i]);
+}
 
